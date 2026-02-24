@@ -1,0 +1,36 @@
+.list-ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+}
+.info-visit{
+    background-color: rgb(253, 165, 1);
+    padding: 16px;
+    margin: 0 16px;
+    border-radius: 10px;
+}
+.background-list-visit{
+    background-color: grey;
+    margin-bottom: 64px;
+    border-radius: 10px;
+}
+.section-text-info-visit{
+    display: flex;
+    gap: 8px;
+}
+.section-text-info-visit h3 {
+    margin-bottom: 16px;
+   
+}
+
+@media(min-width:1024px){
+    .container-all-info-visit{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .background-list-visit{
+        flex: 0 0 45%;
+    }
+}

@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #9E1E1E;
+}
+.main-nav a{
+    font-size: 14px;
+color: white;
+} 
+header nav{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+ul li::marker{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Bodoni Moda';
+}
+p{
+    line-height: 1.6rem;
+    
+}
+
+header nav ul li a{
+    font-weight: bold;
+}
+.marchio{
+    width: 80px;
+    height: 100px;
+}
+.container-section{
+    padding:2rem 2rem 0;
+    text-align: center;
+}
+.container-section h2,
+.container-section p{
+    margin-bottom:2rem;
+}
+.text-orange{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+    color: orange;
+    margin-bottom: 50px;
+    
+}
+.line{
+    width: 50px;
+    height: 2px;
+    background-color: orange;
+}
+.container-hero{
+    position:relative;
+    height: 47rem;
+   
+}
+.img-hero{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.4);
+    object-fit: cover;
+}
+.container-hero-text{
+    position: absolute;
+    padding: 2.5rem;
+    height: inherit;
+    display: flex;
+    top: 2rem;
+    flex-direction: column;
+    justify-content: space-around; 
+    color: white;
+}
+.section-text-hero{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.section-text-hero h1{
+    margin-bottom: 50px;
+    font-size: 34px;
+    max-width: 70%;
+
+}
+.section-text-hero p{
+    line-height: 1.8rem;
+    font-size: 18px;
+     max-width: 68%;
+    
+}
+.section-text-hero h2{
+    margin-bottom: 50px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.icon-xs{
+    width: 10px;
+    height: 10px;
+}
+.container-icon,
+.container-icon-xs{
+    background-color: orange;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-icon-xs{
+    width: 25px;
+    height: 25px;
+}
+.container-padding{
+    padding: 48px 16px;
+}
+.section-text h2,
+.section-text p{
+    text-align: center;
+}
+
+.section-text h2{
+    margin-top: 3rem;
+    margin-bottom: 32px;
+}
+.section-text p{
+    margin-bottom: 48px;
+}
+
+.img{
+    width: 100%;
+    object-fit: cover;
+    height: 360px;
+    margin-bottom: 32px;
+}
+.card-title{
+    font-family: 'Bodoni Moda';
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.card-description{
+    margin-bottom: 22px;
+}
+.orange{
+    font-size: 26px;
+    color: orange;
+}
+.container-all-statistic{
+    width: 100%;
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.container-statistic{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1rem;
+}
+.paragraph-description{
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+.container-ticket{
+    margin-bottom: 64px;
+    margin: 0 48px;
+}
+.ticket{
+    background-color: #4c4747;
+    color: white;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.content-ticket{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+ .text-ticket:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+.text-ticket:nth-child(2),
+.text-ticket:nth-child(3){
+    font-size: 16px;
+}
+.text-orange-contact{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: orange;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.text-contact{
+    padding-left: 67px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    background-color: #1b1b1b;
+    padding: 32px 32px 16px;
+    color: white;
+}
+footer p {
+    margin-bottom: 32px;
+    width: 50%;
+}
+footer h4{
+    margin-bottom: 32px;
+}
+footer ul {
+    list-style: none;
+    margin-bottom: 32px;
+}
+footer ul li{
+    margin-bottom: 18px;
+    font-size: 14px;
+
+}
+footer ul li a {
+    color: white;
+}
+hr{
+    margin-bottom: 32px;
+}
+.privacy-police{
+    display: flex;
+    gap: 2.7rem;
+}
+.copy{
+    margin-bottom: 16px;
+}
+.privacy-police li {
+    font-size: 12px;
+}
+
+
+@media(min-width:678px) {
+    header{
+        height: 70px;
+        font-size: 18px;
+    }
+    .main-nav a{
+     font-size: 16px;
+     color: white;
+    }
+    .marchio{
+        width: 100px;
+      
+    }
+    .container-padding,
+    .container-ticket {
+        padding: 48px 64px;
+    }
+    .img{
+        width: 100%;
+        height: 480px;
+    }
+    .section-text-hero h1{
+        font-size: 58px;
+        max-width: 80%;
+      
+    }
+    .section-text-hero p{
+    font-size: 22px;
+      max-width: 70%;
+}
+.container-hero {
+    height: 45rem;
+}
+.text-orange{
+    font-size: 20px;
+}
+.section-text h2{
+    font-size: 48px;
+}
+.section-text p,
+.paragraph-description{
+    font-size: 18px;
+}
+.card-title{
+    font-size: 24px;
+
+}
+.ticket{
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    gap: 2.5rem;
+ 
+   }
+   .content-ticket{
+    gap: 1.5rem;
+   }
+   .container-icon-xm{
+     width: 80px;
+    height: 80px;
+
+   }
+   .icon-xm{
+        width: 28px;
+    height: 28px;
+   }
+   footer{
+    font-size: 18px;
+   }
+   .footer-tablet{
+    display: flex;
+   gap: 300px;
+   margin-top: 64px;
+   }
+   
+   .container-policy{
+    display: flex;
+    gap: 16px;
+   }
+   footer ul li,
+   footer ul li a{
+    font-size: 17px;
+   }
+ 
+   
+}
+@media(min-width:1024px) {
+    .container-card{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .card{
+        flex: 0 0 30%;
+    }
+    figure{
+        min-height: 40rem;
+    }
+    .container-desktop-description{
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+    }    
+    .container-ticket{
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .ticket{
+       flex: 0 0 30%;
+       padding: 0.5rem; 
+    }
+    .ticket ul li{
+        font-size: 16px;
+    }
+    .contact-desktop{
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+    }
+    .container-img-map{
+        flex: 0 0 50%;
+    }
+    
+    .container-text-contact-desktop{
+       margin-right: 16px;
+    }
+    .container-text-contact{
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    .text-contact{
+       flex:  0 0 50%;
+       padding-left: unset;
+    }
+   
+    .container-icon-xs{
+        width: 40px;
+        height: 40px;
+    }
+    .icon-xs{
+        width: 18px;
+        height: 18px;
+    }
+    .container-all-statistic{
+        margin-bottom: 96px;
+    }
+    /* .container-padding,
+    .container-ticket {
+        padding: 48px 64px;
+    }
+    .img{
+        width: 100%;
+        height: 480px;
+    }
+    .section-text-hero h1{
+        font-size: 58px;
+        max-width: 80%;
+      
+    }
+    .section-text-hero p{
+    font-size: 22px;
+      max-width: 70%;
+}
+.container-hero {
+    height: 45rem;
+}
+.text-orange{
+    font-size: 20px;
+}
+.section-text h2{
+    font-size: 48px;
+}
+.section-text p,
+.paragraph-description{
+    font-size: 18px;
+}
+.card-title{
+    font-size: 24px;
+}
+.ticket{
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    gap: 2.5rem;
+ 
+   }
+   .content-ticket{
+    gap: 1.5rem;
+   }
+   .container-icon-xm{
+     width: 80px;
+    height: 80px;
+
+   }
+   .icon-xm{
+        width: 28px;
+    height: 28px;
+   }
+   footer{
+    font-size: 18px;
+   }
+   .footer-tablet{
+    display: flex;
+   gap: 300px;
+   margin-top: 64px;
+   }
+   
+   .container-policy{
+    display: flex;
+    gap: 16px;
+   }
+   footer ul li,
+   footer ul li a{
+    font-size: 17px;
+   } */
+ 
+   
+}
